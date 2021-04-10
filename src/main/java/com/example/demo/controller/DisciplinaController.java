@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value="/alunos")
-public class AlunoController {
+@RequestMapping(value="/disciplinas")
+public class DisciplinaController {
 
 	@GetMapping
 	public String listar() {
-		return "Mensagens em alunos";
+		return "Mensagens em discplinas";
 	}
 }
