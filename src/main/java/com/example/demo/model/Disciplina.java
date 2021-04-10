@@ -18,9 +18,12 @@ public class Disciplina {
 	private String nome;
 	private int cargaHoraria;
 	
-	public Disciplina(int id, String nome, int cargaHoraria) {
+	public Disciplina() {
+		
+	}
+	
+	public Disciplina(String nome, int cargaHoraria) {
 		super();
-		this.id = id;
 		this.nome = nome;
 		this.cargaHoraria = cargaHoraria;
 	}
